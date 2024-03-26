@@ -13,7 +13,7 @@
 }
 
 .switch-container .slider {
-  --background: linear-gradient(to right, #8f8a8aef, #000000);
+  --background: linear-gradient(to right, #afadadef, #000000);
   position: absolute;
   cursor: pointer;
   top: 0;
