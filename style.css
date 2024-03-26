@@ -74,11 +74,12 @@
         margin-left: 100px;
     }
     .discount{
-         margin-left: 214px;
-         margin-top: 40px;
+         margin-left: 150px;
+         margin-top: 10px;
     }
     .Shop-btn{
-        margin-left: -120px;
+        /* margin-left: -120px; */
+      
     }
     .navbar{
         margin-left: 30px;
