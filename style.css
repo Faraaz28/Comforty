@@ -67,7 +67,6 @@
 
 .cart-btn {
   margin-left: 170px;
-  margin-top: -90px;
 }
 
 .navbarr {
@@ -131,6 +130,9 @@
   .navbarr {
     margin-left: 1px;
   }
+  .cart-btn {
+    margin-left:260px;
+  }
 
   .products {
     margin-left: -25px;
@@ -145,12 +147,10 @@
     margin-left: 1px;
     border-radius: 50%;
     height: 80px;
-
   }
 
   .cardd {
     border: solid 1px #e7e7e7;
-    ;
   }
 
   .clients-name {
