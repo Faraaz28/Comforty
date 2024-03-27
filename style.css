@@ -6,6 +6,8 @@
   height: 2em;
 }
 
+
+
 .switch-container input {
   opacity: 0;
   width: 0;
@@ -93,11 +95,17 @@
   margin-left: 100px;
 }
 
-.cardd {
+/* .cardd {
   border: solid 1px #e7e7e7;
+} */
+
+.bg{
+  background-color: black ;
 }
 
-
+.textcl{
+  color: white;
+}
 @media screen and (max-device-width: 600px) {
   .text {
     margin-left: 20px;
