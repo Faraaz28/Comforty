@@ -83,7 +83,8 @@
 .navbarr {
   margin-left: 125px;
 }
-.client{
+
+.client {
   border: solid 1px #9b9999;
   justify-content: space-between;
 }
@@ -131,7 +132,8 @@
   width: 50px;
   height: 50px;
 }
-.cart-button{
+
+.cart-button {
   margin-left: 170px;
 }
 
@@ -151,6 +153,10 @@
 
   .Shop-btn {
     margin-left: -215px;
+  }
+
+  .cart-button {
+    margin-left: 260px;
   }
 
   .Features {
