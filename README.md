@@ -1,1 +1,1 @@
-Live preview:https://comfortyy.netlify.app/
+preview:https://comfortyy.netlify.app/
