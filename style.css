@@ -1,0 +1,229 @@
+/* ---------------------------------------dark-slider------------------------------------------------ */
+.switch-container {
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+.switch-container input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-container .slider {
+  --background: linear-gradient(to right, #afadadef, #000000);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background);
+  transition: background-color 0.5s;
+  border-radius: 30px;
+}
+
+.switch-container .slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 15px -4px 0px 15px #d9ff02;
+  background: var(--background);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.switch-container input:checked+.slider {
+  background-color: #000;
+}
+
+.switch-container input:checked+.slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 8px -4px 0px 0px #ffffff;
+}
+
+.bg {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.textcol {
+  color: rgb(255, 255, 255);
+}
+
+
+
+.dbtn{
+  margin: 12px 0px 0px 15px;
+}
+
+
+
+
+
+
+/* ----------------------------------------dark-slider-end---------------------------------------------------- */
+.discount {
+  position: absolute;
+  margin-left: 311px;
+  margin-top: 66px;
+  background-color: white;
+}
+
+.cont{
+  margin: -52px 0px 0px 660px; 
+}
+
+.heading {
+  margin-left: 5px;
+  font-size: 50px;
+}
+
+.Shop-btn {
+  margin-left: -455px;
+}
+
+.Features {
+  margin-left: 130px;
+}
+
+.cart-btn {
+  margin-left: 170px;
+}
+
+.navbarr {
+  margin-left: 125px;
+}
+
+
+
+.Shop-btn {
+  margin-left: -435px;
+}
+
+
+.item{
+  text-decoration: none;
+}
+
+
+.owl-nav {
+  font-size: 130%;
+  text-align: end !important;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  color: rgb(0, 0, 0);
+  background-color: rgb(8, 8, 8);
+  border-radius: 50%;
+  border: 5px solid rgb(14, 14, 14);
+  width: 50px;
+  height: 50px;
+}
+
+.cart-button {
+  margin-left: 170px;
+}
+
+.secnav{
+  margin: 0px 0px 0px 120px;
+}
+
+@media screen and (max-device-width: 600px) {
+  .text {
+    margin-left: 22px;
+  }
+
+  .heading {
+    margin-left: 20px;
+  }
+
+  .discount {
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+
+  .Shop-btn {
+    margin-left: -215px;
+  }
+
+  .cart-button {
+    margin-left: 260px;
+  }
+
+  .Features {
+    margin-left: 100px;
+  }
+
+
+  .products {
+    margin-left: -25px;
+  }
+
+
+  .dbtn{
+    margin: 15px 0px 0px -7px;
+  }
+
+  .nvbtn{
+    margin: 0px 0px 0px 313px;
+  }
+
+  .cardd {
+    /* width: 21rem; */
+}
+
+.clients-img {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.clients-text{
+  margin: -300px 0px 0px 0px;
+}
+
+.clients-name {
+ margin: 50px 0px 0px 90px;
+}
+
+.clients-skil {
+  margin: 15px 0px 0px 100px;
+}
+
+
+
+
+}
+
+
+
+
+.clients-img {
+
+  margin: 70px 0px 0px 5px;
+  height: 20px;
+  width: 20px;
+  padding: 50px 100px 0px 0px;
+
+}
+
+.clients-text{
+  margin: -10px 0px 0px -180px;
+ 
+ 
+}
+
+.clients-name {
+  margin: 25px 0px 0px -100px;
+}
+
+.clients-skil {
+
+  margin: 15px 0px 0px -100px;
+}
