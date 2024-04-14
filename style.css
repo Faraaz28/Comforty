@@ -33,7 +33,7 @@
   border-radius: 50%;
   left: 10%;
   bottom: 15%;
-  box-shadow: inset 15px -4px 0px 15px #d9ff02;
+  box-shadow: inset 15px -4px 0px 15px #ffe602;
   background: var(--background);
   transition: transform 0.5s, box-shadow 0.5s;
 }
