@@ -55,16 +55,9 @@
   color: rgb(255, 255, 255);
 }
 
-
-
 .dbtn{
   margin: 12px 0px 0px 15px;
 }
-
-
-
-
-
 
 /* ----------------------------------------dark-slider-end---------------------------------------------------- */
 .discount {
@@ -99,16 +92,13 @@
   margin-left: 125px;
 }
 
-
-
 .Shop-btn {
   margin-left: -435px;
 }
 
-
 .item{
   text-decoration: none;
-  /* color: black; */
+  
 }
 
 
@@ -135,7 +125,28 @@
   margin: 0px 0px 0px 120px;
 }
 
-@media screen and (max-device-width: 600px) {
+.clients-img {
+  height: 100px !important;
+  width: 100px !important;
+  margin: 30px 0px 0px 50px;
+  position: absolute !important; 
+}
+
+.clients-text{
+  margin: 0px 0px 0px 0px;
+}
+
+.clients-name {
+ margin: 0px 0px 0px -173px;
+}
+
+.clients-skil {
+  margin: 0px 0px 0px -173px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
   .text {
     margin-left: 22px;
   }
@@ -175,54 +186,26 @@
     margin: 0px 0px 0px 313px;
   }
 
+  .clients-img {
+   
+    margin: 6px 15px 0px 23px !important;
+    
+  }
   
+  .clients-text{
+    margin: 105px 0px 0px 0px !important;
+  }
+  
+  .clients-name {
+    margin: -220px 0px 0px 115px !important;
+   position: absolute !important;
+  }
+  
+  .clients-skil {
+    margin: -186px 0px 0px -240px !important;
+    position: absolute !important;
+  }
 
-.clients-img {
-  position: relative;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  
 }
 
-.clients-text{
-  margin: 0px 0px 0px 0px;
-}
-
-.clients-name {
- margin: 0px 0px 0px 0px;
-}
-
-.clients-skil {
-  margin: 0px 0px 0px 0px;
-}
-
-
-
-
-}
-
-
-
-
-.clients-img {
-
-  margin: 70px 0px 0px 5px;
-  height: 20px;
-  width: 20px;
-  padding: 50px 100px 0px 0px;
-
-}
-
-.clients-text{
-  margin: -10px 0px 0px -180px;
- 
- 
-}
-
-.clients-name {
-  margin: 25px 0px 0px -100px;
-}
-
-.clients-skil {
-
-  margin: 15px 0px 0px -100px;
-}
