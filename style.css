@@ -12,6 +12,12 @@
   height: 0;
 }
 
+.navebtn{
+  
+  background-color: #ffffff;
+  border: 2px solid white;
+}
+
 .switch-container .slider {
   --background: linear-gradient(to right, #afadadef, #000000);
   position: absolute;
@@ -78,6 +84,10 @@
 
 .Shop-btn {
   margin-left: -455px;
+}
+
+.contact{
+  margin-left: 600px;
 }
 
 .Features {
@@ -154,6 +164,11 @@
   .heading {
     margin-left: 20px;
   }
+
+  .contact{
+    margin-left: 190px;
+  }
+  
 
   .discount {
     margin-left: 180px;
